@@ -22,7 +22,7 @@ for i in range(n):
     lst1.append(e1)
 
 while 1:
-    print("1: Print \t2: Change ID  \t3: Change Name \t5: exit ")
+    print("1: Print \t2: Change ID  \t3: Delete Employee Info \t5: exit ")
     choice = int(input("Enter Choice: "))
 
     if choice == 1:
