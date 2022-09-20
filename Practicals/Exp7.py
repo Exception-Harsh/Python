@@ -37,8 +37,13 @@ while 1:
         print("After Change: ")
         for i in lst1:
             print("ID: ", i.id, "Name: ", i.name)
-        elif choice == 3:
-            x = input
-
+    elif choice == 3:
+        x = int(input("Enter ID of employee who needs to be removed: "))
+        for f in lst1:
+            if f.id == x:
+                lst1.remove(f)
+            print("After Change: ")
+            for i in lst1:
+                print("ID: ", i.id, "Name: ", i.name)
     elif choice == 4:
         exit()
