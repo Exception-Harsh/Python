@@ -26,7 +26,7 @@ while 1:
     choice = int(input("Enter Choice: "))
 
     if choice == 1:
-        for i in list1:
+        for i in lst1:
             print("ID: ", i.id, "\nName: ", i.name)
     elif choice == 2:
         q = input("Enter Name of the employee to be changed: ")
