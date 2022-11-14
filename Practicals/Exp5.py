@@ -12,6 +12,7 @@ while x < 10:
 
     elif choice == 2:
         print(s1.difference(s2))
+
     elif choice == 3:
         print(s1.union(s2))
     elif choice == 4:
