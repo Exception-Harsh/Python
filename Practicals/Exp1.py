@@ -1,7 +1,7 @@
 import sys
 
-a = (sys.argv[0])
-b = (sys.argv[1])
+a = (sys.argv[1])
+b = (sys.argv[2])
 
 print("Before Swapping")
 print(a, b)
