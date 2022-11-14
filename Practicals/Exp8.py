@@ -29,8 +29,8 @@ class B(S):
         S.__init__(self, s)
 
     def dis(self):
-        print(self.var_b, "I am Class B")
         S.dis(self)
+        print(self.var_b, "I am Class B")
 
     def mod(self, s,  b):
         S.mod(self, s)
