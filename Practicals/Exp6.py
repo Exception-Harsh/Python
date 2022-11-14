@@ -17,7 +17,7 @@ while not user:
     elif choice == 2:
         d1.update(d2)
         print(f"Concatenated Dictionary - {d1}")
-        p = int(input("Enter the value of keys: "))
+        p = int(input("Delete the value of key: "))
         d1.pop(p)
         print(f"Updated Dict - {d1}")
 
