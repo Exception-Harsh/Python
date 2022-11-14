@@ -28,6 +28,12 @@ while not user:
         for t in tp1:
             if "python" in t:
                 print(t)
+            if "Python" in t:
+                print(t)
+            if "py" in t:
+                print(t)
+            if "Py" in t:
+                print(t)
 
     elif choice == 3:
         print("Sorted Tuple according to names: ")
