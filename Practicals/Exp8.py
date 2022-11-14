@@ -46,7 +46,6 @@ class C(A, B):
     def dis(self):
         A.dis(self)
         B.dis(self)
-        S.dis(self)
         print(self.var_c, "I am Class C")
 
     def mod(self, s, a, b, c):
